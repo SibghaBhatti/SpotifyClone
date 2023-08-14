@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ye uper vala nav hai for logo and list -->
+    <nav>
+        <marquee   direction="left"><b> <--------Hi I am SIBGHA BHATTI, Welcome To My Spotify Clone.--------------> </b></marquee>  
+            <ul>
+              
+                <li class="brand"><img class="brand" src="logo.png" alt="Spotify">Spotify</li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Search</li>
+                <li><img src="gifff.gif" alt="mygif" height="35px" width="200px"></li>
+            </ul>
+    </nav>
+    <br><br>
+    <div class="container">
+        <div class="songslist">
+            <h1>Best Music Of All Times</h1><br>
+            <div class="songscontainer">
+
+
+
+                
+                <!-- CREATION OF SONGS LISTS -->
+        <div class="songitem">
+         <!-- isme char cheezyn hai img,name,time,playbbutton -->
+         <!-- sb ek sath ekk line me ani chahyen islye we will use span tag -->
+         <img src=""  alt="" height="30px" width="30px"> <!-- img,name  me javascript se lgaun g -->
+        <span class="songName"></span>
+        <span class="songlistplay">
+            <span class="time">03:59 <i id="0" class=" far playitplease fa-play-circle"></i></span>
+            <!-- ye uper mene time likh k usme i k tag se icon lgaya hai jiski class playitplease likhi aur icon ka naam hai font awesome play-circle -->
+        </div>
+          <!-- puri songitem class ko replicate krna hai ab 10 dfa -->
+<div class="songitem">
+     <!-- ye dusray song item ki div hai -->
+         <img src=""  alt="" height="30px" width="30px"> 
+        <span class="songName"></span>
+        <span class="songlistplay">
+            <span class="time">03:33 <i id="1" class=" far playitplease fa-play-circle"></i></span>
+        </div>
+           <div class="songitem">
+            <img src=""alt="" height="30px" width="30px"> 
+           <span class="songName"></span>
+           <span class="songlistplay">
+               <span class="time">02:53 <i id="2" class=" far playitplease fa-play-circle"></i></span>
+           </div>
+           <div class="songitem">
+            <img src=""  alt="" height="30px" width="30px"> 
+           <span class="songName"></span>
+           <span class="songlistplay">
+               <span class="time">03:23 <i id="3" class=" far playitplease fa-play-circle"></i></span>
+           </div>
+           <div class="songitem">
+            <img src=""  alt="" height="30px" width="30px"> 
+           <span class="songName"></span>
+           <span class="songlistplay">
+               <span class="time">05:50 <i id="4" class=" far playitplease fa-play-circle"></i></span>
+           </div>
+           <div class="songitem">
+            <img src=""  alt="" height="30px" width="30px"> 
+           <span class="songName"></span>
+           <span class="songlistplay">
+               <span class="time">05:01 <i id="5" class=" far playitplease fa-play-circle"></i></span>
+           </div>
+           <div class="songitem">
+            <img src=""alt="" height="30px" width="30px"> 
+           <span class="songName"></span>
+           <span class="songlistplay">
+               <span class="time">04:49 <i id="6" class=" far playitplease fa-play-circle"></i></span>
+           </div>
+           <div class="songitem">
+            <img src="" alt="" height="30px" width="30px"> 
+           <span class="songName"></span>
+           <span class="songlistplay">
+               <span class="time">03:52 <i id="7" class=" far playitplease fa-play-circle"></i></span>
+           </div>
+           <div class="songitem">
+            <img src=""  alt="" height="30px" width="30px"> 
+           <span class="songName"></span>
+           <span class="songlistplay">
+               <span class="time">02:19<i id="8" class=" far playitplease fa-play-circle"></i></span>
+           </div> 
+           <div class="songitem">
+            <img src="" alt="" height="30px" width="30px"> 
+           <span class="songName"></span>
+           <span class="songlistplay">
+               <span class="time">06:03<i id="9" class=" far playitplease fa-play-circle"></i></span>
+           </div> 
+           <!-- ye uper akhri song ki div khtm hue -->
+        </div>
+           <!-- song container ki div khtm no more songs -->
+            </div>
+            <!-- song list complete hogae yhn -->
+         </div>
+    <!-- container pura jisme hai sb wo yhn div khtm -->
+
+
+
+<!-- PROGRESS BAR KA SECTION -->
+<div class="bottom">
+    <!-- isme me chahti hun progressbar,icons,name,gif ye sb ajaye -->
+<input type="range" name="range" id="progressbar" min="0" max="100" value="0">
+
+<div class="icons">
+    <!-- icons ki div hai ye bottom k andr -->
+    <!-- fontawesome icons embed kiay hain font awesome se-->
+    <i class="fas fa-4x fa-step-backward" id="previous"></i>
+    <!-- uper iska mtlb ye hai k 4 times its actual size font ausome solid aur fa step backward us icon ka naam hai-->
+    <i class="far fa-3x fa-play-circle" id="playbutton"></i>
+    <i class="fas fa-4x fa-step-forward" id="next"></i>
+</div>
+<div class="songinfo">
+<!-- isme song ka naam ajaye ga aur sath gif-->
+<img src="playing.gif" width="45px" alt="" id="gif">
+<!-- gif k sath he naam iay islye span lgay ga -->
+<span id="mastersong">Calm_Down By Salena Gomez</span>
+</div></div>
+
+
+
+
+</div>
+<script src="script.js"></script> 
+  
+    <script src="https://kit.fontawesome.com/cde3fefa81.js" crossorigin="anonymous"></script>
+</body>
+</html>
