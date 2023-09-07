@@ -1,187 +1,176 @@
 /*font import krnay lgi font awesome se kch*/
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&family=Karla:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@600&family=Karla:ital,wght@1,300&display=swap");
 
 /*THIS IS NAV BAR PORTION */
-.brand{
-align-items:center;
-display: flex;
-padding: 0 9px;
-font-weight: bolder;
-font-size: 1.6rem;
+.brand {
+  align-items: center;
+  display: flex;
+  padding: 0 9px;
+  font-weight: bolder;
+  font-size: 1.6rem;
 }
-.brand img{
-    height: 40px;
-width: 40px;
-padding: 0 8px;/*img se spotify thora door ho */
-align-items: center;
+.brand img {
+  height: 40px;
+  width: 40px;
+  padding: 0 8px; /*img se spotify thora door ho */
+  align-items: center;
 }
 
-nav{
-    background-color: black;
-    height:50px;
-    width: auto;
-    font-family: 'Handjet';
+nav {
+  background-color: black;
+  height: 50px;
+  width: auto;
+  font-family: "Handjet";
 }
 nav ul {
-    list-style-type: none;/*list k dots ghyb hojayengay q k no style given */
-    display: flex;/*list ko ek lineme rep krna */
-    direction: column;/*flex ki direction set */
-    align-items: center;/* sarayy flex me uper nechay se equal hojaye gay */
-    background-color: black;
-    color: white;
-    font-weight: bolder;
-    font-family:'Handjet';
-    font-size:1.6rem;/*font size rem me likhtay */
-    padding:0 9px;
-    height:55px;
-
+  list-style-type: none; /*list k dots ghyb hojayengay q k no style given */
+  display: flex; /*list ko ek lineme rep krna */
+  direction: column; /*flex ki direction set */
+  align-items: center; /* sarayy flex me uper nechay se equal hojaye gay */
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  font-family: "Handjet";
+  font-size: 1.6rem; /*font size rem me likhtay */
+  padding: 0 9px;
+  height: 55px;
 }
-nav ul li{
-    padding: 0 15px;/*in sb me space ajaye g */
-    align-items: center;
-    
+nav ul li {
+  padding: 0 15px; /*in sb me space ajaye g */
+  align-items: center;
 }
-nav ul li:hover{
-    /*applying hover effect to all the list*/
-    background-color: rgb(8, 241, 0);
+nav ul li:hover {
+  /*applying hover effect to all the list*/
+  background-color: rgb(8, 241, 0);
 }
-nav marquee{
+nav marquee {
   color: rgb(255, 252, 252);
   direction: row;
-font-size: large;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-letter-spacing: 1.0rem;
-background-image: url("mar.jpg");
-background-position: centre;
-background-size: cover;
-
-
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1rem;
+  background-image: url("images/mar.jpg");
+  background-position: centre;
+  background-size: cover;
 }
-
-
 
 /*BODY AND UNIVERSAL */
-body{
-    background-color: rgb(5, 121, 152);
+body {
+  background-color: rgb(5, 121, 152);
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
- /*THIS IS CONTAINER OF ALL SONGS PORTION */
-.container{
-    display: flex;    /* flex bnaya takay colour mix na ho */
-    margin: 0 70px;
-background-color: black;
-color: white;
-border-radius: 12px; /*border takay uska round ho*/
-border-color: rgb(10, 124, 147);
-border-style: dotted;
-background-image: url('bg3.jpg');
-background-attachment: scroll;
-background-repeat: no-repeat;
-background-position:center;
-background-size: cover;
-width:88%;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-padding:2px;/*text thora border se door*/
-align-items: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-   
-h1{
-    color:rgb(8, 241, 0);
+/*THIS IS CONTAINER OF ALL SONGS PORTION */
+.container {
+  display: flex; /* flex bnaya takay colour mix na ho */
+  margin: 0 70px;
+  background-color: black;
+  color: white;
+  border-radius: 12px; /*border takay uska round ho*/
+  border-color: rgb(10, 124, 147);
+  border-style: dotted;
+  background-image: url("images/bg3.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 88%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 2px; /*text thora border se door*/
+  align-items: center;
 }
-.songscontainer{
-margin-top: 100px;
-padding: 0 10px;
-justify-content: left;
-align-items: left;
-}
-.songitem{
- 
-    width: 400px;
-    padding: 9px 12px;
-    display: flex;
-   flex:wrap;
-   height:35px;
-   margin: 12px 0;
-   color: rgb(255, 255, 255);
-   justify-content: space-between;
-   align-items: center;
-border-radius:12px;
-background-image: url("covvv.jpg");
-background-size: cover;
-background-position: center;
-}
-.songitem i{
-    cursor:pointer;
 
+h1 {
+  color: rgb(8, 241, 0);
 }
-.songitem i:hover{
-    color:rgb(35, 221, 47);
+.songscontainer {
+  margin-top: 100px;
+  padding: 0 10px;
+  justify-content: left;
+  align-items: left;
 }
-.songitem img{
-    margin: 0 23px;
+.songitem {
+  width: 400px;
+  padding: 9px 12px;
+  display: flex;
+  flex: wrap;
+  height: 35px;
+  margin: 12px 0;
+  color: rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background-image: url("images/covvv.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.songitem i {
+  cursor: pointer;
+}
+.songitem i:hover {
+  color: rgb(35, 221, 47);
+}
+.songitem img {
+  margin: 0 23px;
   border-radius: 5px;
   width: 40px;
   height: 40px;
 }
 .time {
-    margin: 0 23px;
+  margin: 0 23px;
 }
 
-
- /*THIS IS PROGRESS BAR PORTION */
- .bottom{
-    display: flex;
-    flex-direction: column;  /*saray icon,progrewssbar,naam,gif uper neechya iayngay */
-    background-color: black;
-    height: 120px;
-    bottom: 0;
-    color:white;
-    background-image: url("bg3.jpg");
-    background-size: cover;
-align-items: center;
-justify-content: center;
-position:sticky;
- }
- #progressbar{
-    width: 900px;
-    padding: 10px;
-    cursor:pointer;
-
-    }
-.icons{
-    cursor:pointer; /* ab jb cursor udr jaye ga toh hand ajaye ga */
-    padding-top: 2px;
-    margin-top: 5px;
-    padding-bottom: 20px;
+/*THIS IS PROGRESS BAR PORTION */
+.bottom {
+  display: flex;
+  flex-direction: column; /*saray icon,progrewssbar,naam,gif uper neechya iayngay */
+  background-color: black;
+  height: 120px;
+  bottom: 0;
+  color: white;
+  background-image: url("images/bg3.jpg");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+}
+#progressbar {
+  width: 900px;
+  padding: 10px;
+  cursor: pointer;
+}
+.icons {
+  cursor: pointer; /* ab jb cursor udr jaye ga toh hand ajaye ga */
+  padding-top: 2px;
+  margin-top: 5px;
+  padding-bottom: 20px;
 }
 
-#previous:hover{
-    color:rgb(35, 221, 47);
+#previous:hover {
+  color: rgb(35, 221, 47);
 }
-#playbutton:hover{
-    color:rgb(35, 221, 47);
+#playbutton:hover {
+  color: rgb(35, 221, 47);
 }
-#next:hover{
-    color:rgb(35, 221, 47);
+#next:hover {
+  color: rgb(35, 221, 47);
 }
-.songinfo img{
-    opacity: 0;
-    /*abhi gif nzr nni iay ga bcz opacitiy 0 toh js se ye change kren gay */
-    transition : opacity 0.4s ease-in;
+.songinfo img {
+  opacity: 0;
+  /*abhi gif nzr nni iay ga bcz opacitiy 0 toh js se ye change kren gay */
+  transition: opacity 0.4s ease-in;
 }
-.songinfo{
-   position: absolute;
-left:17vw;/*left se thora door hoga naam mastersong ka*/
-font-family: 'Varela Round', sans-serif;
+.songinfo {
+  position: absolute;
+  left: 17vw; /*left se thora door hoga naam mastersong ka*/
+  font-family: "Varela Round", sans-serif;
 }
 
 @media only screen and (max-width: 1100px) {
-    body {
-      background-color: rgb(119, 255, 0);
-    }}
+  body {
+    background-color: rgb(119, 255, 0);
+  }
+}
